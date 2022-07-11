@@ -1,0 +1,13 @@
+// scss-docs-start color-variables
+$teal: #20c997 ;
+$cyan: #0dcaf0 ;
+
+// scss-docs-start theme-color-variables
+$primary: $teal;
+$secondary: $cyan;
+
+// Quickly modify global styling by enabling or disabling optional features.
+$enable-rounded: false ;
+$enable-shadows: true ;
+
+$zindex-offcanvas: 1051;
