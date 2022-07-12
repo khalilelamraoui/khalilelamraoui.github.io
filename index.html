@@ -21,9 +21,12 @@
             <a href="index.html" class="navbar-brand text-uppercase fw-bold">
                 <span class="bg-primary bg-gradient p-1 rounded text-light">John</span>Doe
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <nav class="navbar">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </nav>
+            
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav fs-5 text-center">
                     <li class="nav-item active">
@@ -40,6 +43,11 @@
                     </li>
                 </ul>
             </div>
+            <script>
+                $(document).on('click',function(){
+                    $('.collapse').collapse('hide');
+                })
+            </script>
         </nav>
 
         <!------------------------------------------------------ profile --------------------------------------------------------------->
